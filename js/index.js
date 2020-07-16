@@ -12,38 +12,45 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: 'style',
-      items: [{title:"Mira Loader Usb 672", desc:"Enable only ELF LOADER function on Usb port", version:"1.1 by Lightningmods", icon:"send", expage:"payloads/mira672.html"}, {title:"FTP", desc:"Starts an ftp server with full R/W on all 16 partitions of your PS4", version:"1.0 by Lightningmods", icon:"warning", expage:"payloads/ftp.html"}]
-  },
-   "BACKUP": {
+      items: [{title:"6.72", desc:"6.72 v1", version:"1.0", icon:"airplay", expage:"payloads/playerloader3.html"}]
+	},
+    "HEN": {
       index: 1,
+      title: "HEN",
+      selectedIndex: 0,
+      icon: 'gamepad',
+      items: [{title:"6.72", desc:"6.72 v1", version:"1.0", icon:"airplay", expage:"payloads/playerloader3.html"}]
+	},
+   "BACKUP": {
+      index: 2,
       title: "BACKUP",
       selectedIndex: 0,
       icon: "backup",
       items: [{title:"GAME DUMPER", desc:"Dump disc/PSN games to USB: with/without patches, merged/unmerged", version:"1.1 by Al-Azif", icon:"archive", expage:"payloads/discdump.html"}, {title:"KERNEL DUMPER", desc:"Dump kernel to USB: with/without patches, merged/unmerged", version:"1.1 by Al-Azif", icon:"archive", expage:"payloads/kdump.html"}, {title:"KERNEL CLOCK ", desc:"Dump kernel clock to USB: with/without patches, merged/unmerged", version:"1.1 by Al-Azif", icon:"archive", expage:"payloads/kclock.html"}]
 	}, 
    "SYSTEM": {
-	  index: 2,
+	  index: 3,
       title: "SYSTEM",
       selectedIndex: 0,
       icon: "home",
 	    items: [{title:"FAN CONTROL", desc:"Set the temperature at which the PS4 fans will kick in (79° = PS4 default value)", version:"3.0 by Leeful", icon:"", expage:"payloads/fancontrol.html"}]
 	}, 
 	"MEDIA": {
-      index: 3,
+      index: 4,
       title: "MEDIA",
       selectedIndex: 0,
       icon: "subscriptions",
-      items: [{title:"MP4 PLAYER", desc:"Media player for MP4 movies over network", version:"1.0 by DEFAULTDNB", icon:"airplay", expage:"payloads/playerloader.html"}]
-	},
+      items: [{title:"MEDIA", desc:"MEDIA", version:"1.0", icon:"airplay", expage:"payloads/playerloader.html"}]
+	},	
 	"CACHE": {
-      index: 4,
+      index: 5,
       title: "CACHE",
       selectedIndex: 0,
       icon: "copyright",
       items: [{title:"X-PROJECT CACHE INSTALLER", desc:"Cache X-Project to your web browser for offline use", version:"1.0 by Al-Azif / Mod By Leeful", icon:"", expage:"payloads/xmbcache.html"}]
 	},
 	 "ABOUT": {
-      index: 5,
+      index: 6,
       title: "ABOUT",
       selectedIndex: 0,
       icon: "help",
