@@ -1,4 +1,4 @@
 
-https://ciss84.github.io/Host_672/index.html
+https://ciss84.github.io/672/index.html
 
 # Host_672_By_Mugiwara WIP
