@@ -14,43 +14,22 @@ var model = {
       icon: 'style',
       items: [{title:"6.72", desc:"6.72 v1", version:"1.0", icon:"airplay", expage:"payloads/playerloader3.html"}]
 	},
-    "HEN": {
-      index: 1,
-      title: "HEN",
-      selectedIndex: 0,
-      icon: 'gamepad',
-      items: [{title:"6.72", desc:"6.72 v1", version:"1.0", icon:"airplay", expage:"payloads/playerloader3.html"}]
-	},
-   "BACKUP": {
-      index: 2,
-      title: "BACKUP",
-      selectedIndex: 0,
-      icon: "backup",
-      items: [{title:"GAME DUMPER", desc:"Dump disc/PSN games to USB: with/without patches, merged/unmerged", version:"1.1 by Al-Azif", icon:"archive", expage:"payloads/discdump.html"}, {title:"KERNEL DUMPER", desc:"Dump kernel to USB: with/without patches, merged/unmerged", version:"1.1 by Al-Azif", icon:"archive", expage:"payloads/kdump.html"}, {title:"KERNEL CLOCK ", desc:"Dump kernel clock to USB: with/without patches, merged/unmerged", version:"1.1 by Al-Azif", icon:"archive", expage:"payloads/kclock.html"}]
-	}, 
-   "SYSTEM": {
-	  index: 3,
-      title: "SYSTEM",
-      selectedIndex: 0,
-      icon: "home",
-	    items: [{title:"FAN CONTROL", desc:"Set the temperature at which the PS4 fans will kick in (79° = PS4 default value)", version:"3.0 by Leeful", icon:"", expage:"payloads/fancontrol.html"}]
-	}, 
 	"MEDIA": {
-      index: 4,
+      index: 1,
       title: "MEDIA",
       selectedIndex: 0,
       icon: "subscriptions",
       items: [{title:"MEDIA", desc:"MEDIA", version:"1.0", icon:"airplay", expage:"payloads/playerloader.html"}]
 	},	
 	"CACHE": {
-      index: 5,
+      index: 2,
       title: "CACHE",
       selectedIndex: 0,
       icon: "copyright",
       items: [{title:"X-PROJECT CACHE INSTALLER", desc:"Cache X-Project to your web browser for offline use", version:"1.0 by Al-Azif / Mod By Leeful", icon:"", expage:"payloads/xmbcache.html"}]
 	},
 	 "ABOUT": {
-      index: 6,
+      index: 3,
       title: "ABOUT",
       selectedIndex: 0,
       icon: "help",
